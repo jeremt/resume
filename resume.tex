@@ -1,0 +1,222 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Jérémie Taboada}
+    
+\small \href{mailto:taboada.jeremie@gmail.com}{\underline{taboada.jeremie@gmail.com}}
+$|$
+\href{https://www.linkedin.com/in/jeremie-taboada/}{\underline{linkedin.com/in/jeremie-taboada/}}
+$|$
+\href{https://github.com/jeremt}{\underline{github.com/jeremt}} 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Computer Science (Artificial Inteligence)}{Kent University}
+      {Learned about genetic algorithms, Machine learning, Parallel computing, 3d modeling and other stuffs}{2014 -- 2015}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Computer Science}{Epitech}
+      {C, C++, project management, algorithm, game development, app/web development}{2011 -- 2016}
+  \resumeSubHeadingListEnd
+
+%-----------Experience-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Les3Dev}{2024 -- Present}
+      {Co-Founder}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Founded a small freelances collective}
+        \resumeItem{Designed \& developed custom websites and native apps for startups and companies such as Decathlon and BNP}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Code Passport}{2023 -- Present}
+      {Co-Founder}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Design/developed an \textbf{interactive code learning website}}
+        \resumeItem{Wrote most of the learning material (exercises, guides, quizzes)}
+        \resumeItem{Organized coding workshops}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Ada Tech School}{2022 -- Present}
+      {Web/mobile development teacher}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Teaching web and mobile development, team work and good practices.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Celestory}{2019 -- 2023}
+      {UX/UI/Developer}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Created Voltapp \& Voltask, no-code tools to create apps and automations}
+        \resumeItem{Worked on Celestory, a no-code tool to create interactive serious games}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Parallel Studio}{2018 -- 2019}
+      {CTO}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Developed mobile apps and games (AI filters app, AR/VR Games, Interactif social map, etc.)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SupDeWeb}{2019 -- 2021}
+      {Web/mobile development teacher}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Taught Swift for iOS, React \& React Native.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {GoPro}{2016 -- 2018}
+      {R\&D, AI Engineer}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Worked on Quik app (iOS/Android). Worked on C++ Engine (3D, shaders, Machine learning).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Stupeflix}{2015 -- 2016}
+      {C++ \& Python Developer}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{C++, Python, OpenGL, Computer vision, multi- threading, Engine development}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kent University}{2014 -- 2015}
+      {Computer science teacher}{Canterbury, England}
+      \resumeItemListStart
+        \resumeItem{Taught courses to undergraduates such as algorithms, data, POO, etc.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Skills -----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \vspace{1mm}
+     \textbf{Primary}{: React, OpenGL, Svelte, HTML/CSS, Typescript, Python, Figma, PostgreSQL, Go, Supabase, Docker, Algorithms} \\
+     \vspace{1mm}
+     \textbf{Secondary}{: C/C++, Godot, Unity, Swift, Unreal Kotlin, Blender, Photography, Photoshop} \\
+     \vspace{1mm}
+
+    }}
+ \end{itemize}
+
+ %-----------Hobbies-----------
+\section{Hobbies}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \vspace{1mm}
+     {Cooking \& baking, climbing, theatre, reading, learning new stuffs.} \\
+
+    }}
+ \end{itemize}
+
+\end{document}
